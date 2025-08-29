@@ -23,6 +23,8 @@ function divide(a, b) {
 
 const API_KEY = 'your_api_key_here';
 
+
+// ESPORTAZIONE NOMINATA
 export { add, subtract, multiply, divide, API_KEY }; // Esporta le funzioni e la costante API_KEY
 
 

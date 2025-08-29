@@ -7,6 +7,12 @@ import { multiply } from './functions.js';
 import { divide } from './functions.js';
 import { API_KEY } from './functions.js';
 
+// OPPURE IMPORTAZIONE MULTIPLA
+// import { add, subtract, multiply, divide, API_KEY } from './functions.js';
+// NOTA! DEVONO AVERE LO STESSO NOME A MENO CHE NON SI USI "AS"
+// Es. import { add as somma } from './functions.js';
+
+
 console.log(add(2, 3));        // 5
 console.log(subtract(10, 4));  // 6
 console.log(multiply(3, 3));   // 9
@@ -14,7 +20,7 @@ console.log(divide(20, 5));    // 4
 console.log(API_KEY);          // "12345"
 
 
-// Importazione di tutte le funzioni come oggetto
+// IMPORTAZIONE MULTIPLA PER OGGETTO
 // import * as functions from './functions.js';
 
 import * as math from './functions.js';
